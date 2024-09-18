@@ -1,5 +1,5 @@
 <div>
-    <h1>{{ $count }}</h1>
+    <h1><?php echo e($count); ?></h1>
  
     <button wire:click="increment">+</button>
  
